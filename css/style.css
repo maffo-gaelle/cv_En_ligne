@@ -83,18 +83,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding: 17px;    
+    padding: 8px;    
 
 }
 
-#hambuger-content nav ul li{
-
-    padding-left: 15px;
+#hambuger-content nav ul li {
+    padding-left: 27px;
 }
-
 li.navbar__link a {
     color: #000;
     font-size: 24px;
+
     font-family: "crete round", Helvetica, sans-serif;
 }
 li.navbar__link a:hover {
@@ -404,23 +403,22 @@ section:first-child {
   }
   
 .heading a{
-    display: block;
     width: 300px;
     height: 80px;
-    /* line-height: 50px; */
     font-weight: bold;
     text-decoration: none;
     background: #0A0201;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    /* letter-spacing: 1px; */
     border: 3px solid #333;
     transition: all .35s;
     display: inline-block;
-    /* margin-top: 20px; */
     padding: 18px 50px;
     border-radius: 3px;
+    position: relative;
+    left: 18px;
+    top: 0;
   }
 
  .heading .wrapper .icon{
@@ -451,7 +449,7 @@ section:first-child {
   }
 
 .heading a:hover  {
-    width: 200px;
+    width: 250px;
     border: 2px solid #fff;
     background: transparent;
     color:#fff;
