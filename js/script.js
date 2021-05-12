@@ -73,7 +73,7 @@ $(function() {
         btnleft.style.color = "white";
         btnRight.style.color = "white";
         let div = document.createElement('div');      
-        div.classList.add("white-divider");
+        // div.classList.add("white-divider");
         $(div).insertAfter(autor);
 
         $('body').scrollspy({target: ".navbar", offset: 50});

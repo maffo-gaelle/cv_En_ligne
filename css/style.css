@@ -18,7 +18,8 @@ img {
 }
 section .heading {
     text-align: center;
-    padding-bottom: 40px;
+    margin-bottom: 10px;
+    /* padding-bottom: 40px; */
 }
 section #about .heading {
     padding-bottom: 100px;
@@ -226,7 +227,7 @@ li.navbar__link:hover a::after{
     padding-top: 100px;
     background-color:#0A0201;
     box-sizing: content-box;
-    
+    height: 350px;
 }
 
 section:first-child {
@@ -791,7 +792,7 @@ to {
 
 #projets {
     background-color:#0A0201;
-    /* height: 1000px; */
+    padding-bottom: 10px;
 }
 #projets .container {
     padding-top: 30px;
@@ -852,16 +853,15 @@ to {
     width: 50%;
     float: left;
     cursor: pointer;
-    transform: scale(1);
-    transition: all 550ms 100ms ease-in-out;
+    
 }
 
-.timeline-panel-container:hover {
+/* .timeline-panel-container:hover {
     /* width: 50%;
     float: left;
-    cursor: pointer; */
+    cursor: pointer; 
     transform: scale(1.10);
-}
+} */
 
 /* .timeline-panel:hover {
    background-color: #83818c;
@@ -907,8 +907,19 @@ to {
     right: auto;
 }
 a.link {
-    color: #0A0201;
+    color: #12332D ;
     font-size: 14px;
+    font-weight: bold;
+    
+    transition: all 550ms ease-in-out;
+    transform: scale(1);
+}
+
+a.link:hover {
+    color: #12332D;
+    font-size: 16px;
+    font-weight: bold;
+    transform: scale(1.10);
 }
 
 .card {
