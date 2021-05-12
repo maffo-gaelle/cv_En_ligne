@@ -974,7 +974,7 @@ a.link:hover {
 }
 
 /*      Citations     */
-#Citations {
+/* #Citations {
     background-color:#0A0201;
     padding-top: 30px;
     text-align: center;
@@ -997,13 +997,13 @@ a.link:hover {
 #citation-autor {
     font-weight: bold;
     color: #ddd;
-}
+} */
 
 /* formulaire contact */
 
 #contact {
     margin: auto 0;
-    
+    background: #000;
 }
 
 textarea {
@@ -1021,9 +1021,9 @@ textarea {
    margin-bottom: 60px;
 }
 
-#contact-form {
+#contact-form {background: #fff;
    font-size: 20px;
-   background: #fff;
+   
    padding: 40px;
    border-radius: 10px;
    /* margin-left: 150px; */
