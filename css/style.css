@@ -1,5 +1,4 @@
-        /*  General  */
-       
+        /*  General  */     
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -179,7 +178,6 @@ li.navbar__link:hover a::after{
 .show-nav .bar {
     width: 0;
     background: transparent;
-    right: 47px;
 }
 .bar {
     display: block;
@@ -189,7 +187,7 @@ li.navbar__link:hover a::after{
     border-radius: 3px;
     transition: all .5s ease-in-out;
     position: absolute;
-    right: 12px;
+    right: 50px;
     
 }
 .bar::after, .bar::before {
@@ -201,19 +199,25 @@ li.navbar__link:hover a::after{
     background-color:  #000;
     border-radius: 3px;
     transition: all .5s ease-in-out;
+    right: 0 !important;
 }
 
 .bar::before {
     transform: translateY(-12px);
+    right: 12px;
 }
 .bar::after {
     transform: translateY(12px);
+    right: 12px;
 }
 .show-nav .bar::before {
     transform: rotate(45deg);
+    right: 12px;
 }
 .show-nav .bar::after {
     transform: rotate(-45deg);
+    right: 12px;
+
 }
 
 /*       ABOUT     */
@@ -372,6 +376,9 @@ section:first-child {
 
 @media all and (min-width: 768px)  and (max-width: 900px)
 {
+    body {
+        width: auto;
+    }
     .heading a{
         top : -100px;
       }
